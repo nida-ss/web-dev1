@@ -1,0 +1,391 @@
+body {
+    background-color: #160c2e;
+    color: #f8f8f2;
+    font-family: poppins;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    /* align-items: center; */
+  
+    /* height: 100vh; */
+  }
+  
+  .text {
+      /* padding: 0px; */
+      /* inline-size: auto; */
+      padding-left: 272px;
+      font-weight: 400;
+      font-size: 30px;
+      /* margin-top: .5rem; */
+      margin: 0;
+      /* display: inline; */
+      line-height: 1.5;
+
+  }
+  
+  
+  
+  .image {
+    width: 1144px;
+    height: 925px;
+    background-image: url("./royal.png");
+    flex-shrink: 0;
+    margin-top: -95px;
+    margin-right: 0%;
+    /* left: 650px; */
+    
+    
+  }
+  
+  
+  .engage {
+      color: #fd8bf8;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: normal;
+      padding-left: 272px;
+      margin-bottom: 10px;
+      /* margin-top: 100px; */
+      gap: 20px;
+      
+  }
+  .navbar {
+      background: #573568;
+      height: 62px;
+      width: 100%;
+      /* flex: auto; */
+      margin-top: 150px;
+  }
+  
+  .full {
+      margin-top: 120px;
+
+  }
+  
+
+
+/* section css */
+
+  .section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 50px; */
+    margin-left: 260px;
+    margin-right: 260px;
+    
+    
+}
+
+.category {
+    text-align: center;
+}
+
+.category img {
+    width: 550px; /* Adjust width as necessary */
+    height: 286px;
+    /* margin-left: 60px; */
+    max-width: 435px;
+    /* padding-left: 0.1rem;
+    padding-right: 0.1rem; */
+}
+
+.category h3 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+
+
+
+/* our services section */
+
+
+.services h1 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.one1 h2{
+  color: white;
+  color: #FFF;
+  width: 200px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  margin-left: 314px;
+  margin-top: 250px;
+}
+.one1 p{
+  color: white;
+  width: 304px;
+  flex-shrink: 5;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  text-wrap: wrap;
+  margin-left: 270px;
+  /* margin-bottom: -240px; */
+
+}
+
+.one1 img {
+width: 159px;
+height: 150px;
+flex-shrink: 0;
+padding-left: 326px;
+margin-bottom: -225px;
+}
+
+.one1 button {
+  background-color: white;
+  width: 190px;
+  height: 49px;
+  flex-shrink: 0;
+  border: 3px solid #BC5CBC;
+  background: #FFF;
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: -0.72px;
+  margin-left: 326px;
+}
+
+.two2 {
+  margin-top: -600px;
+  margin-left: 595px;
+}
+
+.two2 h2 {
+  color: white;
+  color: #FFF;
+  width: 370px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  margin-left: 160px;
+  margin-top: 40px;
+}
+
+.two2 img {
+  width: 134px;
+  height: 139px;
+  flex-shrink: 0;
+  margin-top: 100px;
+  margin-left: 268px;
+}
+
+.two2 p {
+color: #FFF;
+width: 435px;
+font-family: Poppins;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: 38px; 
+text-align: center;
+margin-left: 126px;
+margin-top: 34px;
+
+}
+
+
+
+.two2 button {
+background-color: white;
+width: 190px;
+height: 49px;
+flex-shrink: 0;
+border: 3px solid #BC5CBC;
+background: #FFF;
+color: #000;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px;
+letter-spacing: -0.72px;
+margin-left: 264px;
+margin-top: 0px;
+}
+
+.three3 {
+  margin-top: -600px;
+  margin-left: 470px;
+}
+
+.three3 h2 {
+  color: white;
+  color: #FFF;
+  width: 370px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  margin-left: 172px;
+  margin-top: 40px;
+}
+
+.three3 img {
+  width: 134px;
+  height: 139px;
+  flex-shrink: 0;
+  margin-top: 100px;
+  margin-left: 286px;
+}
+
+.three3 p {
+color: #FFF;
+width: 378px;
+text-align: center;
+font-family: Poppins;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: 38px; 
+margin-left: 172px;
+margin-top: 34px;
+
+}
+
+
+
+.three3 button {
+background-color: white;
+width: 190px;
+height: 49px;
+flex-shrink: 0;
+border: 3px solid #BC5CBC;
+background: #FFF;
+color: #000;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px;
+letter-spacing: -0.72px;
+margin-left: 274px;
+margin-top: 0px;
+}
+
+
+
+/* mountain image */
+.mountain {
+  background-image: url(./pushworld.png);
+  width: 100%;
+  height: 630px;
+  margin-top: 170px;
+}
+
+.mountain p {
+  color: #FFF;
+  width: 920px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 0;
+  line-height: 42px; /* 105% */
+  letter-spacing: 2.8px;
+  margin-top: 450px;
+  margin-left: 510px;
+}
+
+/* Contact Us */
+
+h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 100px;
+}
+
+
+.wlc {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 410;
+  line-height: 42px;
+  margin-top: -20px
+
+}
+
+.h3one {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  margin-top: 40px;
+
+}
+
+.h3two {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  margin-top: -44px;
+}
+
+.h3three {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  margin-top: 50px;
+
+}
+
+.h3four {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  margin-top: -44px;
+  padding-bottom: 60px;
+}
